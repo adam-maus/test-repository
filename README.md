@@ -13,5 +13,5 @@ For instructions to set up Varnish, you can use:
 
 ## Examples ##
 - example-1: Sends basic public cache control headers for 10 seconds.
-- example-2: Tests private caching for user data
+- example-2: Tests caching for JSON-encoded user data
 	- more information can be found at: https://www.varnish-cache.org/trac/wiki/VCLExampleCachingLoggedInUsers
