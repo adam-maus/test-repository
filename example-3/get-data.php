@@ -4,6 +4,8 @@
 
 include_once("lib.php");
 
+cache_control(-1, "public");
+
 // Retrieve userid=1
 
 $token = encrypt_decrypt("encrypt", "1-" . (time() + 10000));
